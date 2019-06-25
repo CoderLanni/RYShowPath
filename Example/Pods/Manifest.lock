@@ -1,0 +1,16 @@
+PODS:
+  - RYShowPath (0.1.0)
+
+DEPENDENCIES:
+  - RYShowPath (from `../`)
+
+EXTERNAL SOURCES:
+  RYShowPath:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  RYShowPath: 00bc91f0b85f68a0d354827ac7047649bd1b3464
+
+PODFILE CHECKSUM: e1c4be6296655e9f0bca3e6dcecd4ac49dd45124
+
+COCOAPODS: 1.5.0

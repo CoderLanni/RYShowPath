@@ -1,0 +1,6 @@
+framework module RYShowPath {
+  umbrella header "RYShowPath-umbrella.h"
+
+  export *
+  module * { export * }
+}

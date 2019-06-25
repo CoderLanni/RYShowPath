@@ -41,8 +41,8 @@
 		12852165964911E9D01258D3 /* Pods_RYShowPath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYShowPath_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		13691B50A23DB52960187919 /* Pods_RYShowPath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RYShowPath_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15040ECE66675C90D0045C8F /* Pods-RYShowPath_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYShowPath_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYShowPath_Example/Pods-RYShowPath_Example.release.xcconfig"; sourceTree = "<group>"; };
-		1E4663B1C17D5DAF7A87EAEB /* RYShowPath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = RYShowPath.podspec; path = ../RYShowPath.podspec; sourceTree = "<group>"; };
-		25C3CA20902F4E086E902A59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1E4663B1C17D5DAF7A87EAEB /* RYShowPath.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = RYShowPath.podspec; path = ../RYShowPath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25C3CA20902F4E086E902A59 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RYShowPath_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYShowPath_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		605D89645FD4F396A0AA634D /* Pods-RYShowPath_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYShowPath_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYShowPath_Example/Pods-RYShowPath_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7DCDAEA52279CD88A5CD0F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7DCDAEA52279CD88A5CD0F6E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8438301102CD6A39F14CC1FE /* Pods-RYShowPath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYShowPath_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYShowPath_Tests/Pods-RYShowPath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -207,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				F43E30188438B1A35243AC93 /* [CP] Embed Pods Frameworks */,
+				E47906C5F20F6CE56FCC4287 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -330,7 +330,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		F43E30188438B1A35243AC93 /* [CP] Embed Pods Frameworks */ = {
+		E47906C5F20F6CE56FCC4287 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (

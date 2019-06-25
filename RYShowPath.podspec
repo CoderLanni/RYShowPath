@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RYShowPath'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of RYShowPath.'
+  s.version          = '0.1.1'
+  s.summary          = '使用cocoapod 的测试类 RYShowPath.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   #   'RYShowPath' => ['RYShowPath/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+   s.public_header_files = 'Pod/Classes/**/*.h','Pod/Classes/*.h','RYShowPath/Classes/**/*.h','RYShowPath/Classes/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
