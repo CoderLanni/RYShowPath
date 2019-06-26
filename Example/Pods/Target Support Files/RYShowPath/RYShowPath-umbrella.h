@@ -10,8 +10,13 @@
 #endif
 #endif
 
-#import "TestMacro.h"
-#import "TestObj.h"
+#import "NSObject+RYGesturePath.h"
+#import "RYPathMacro.h"
+#import "UICollectionView+RYPath.h"
+#import "UIControl+RYPath.h"
+#import "UITableView+RYPath.h"
+#import "UIView+RYPath.h"
+#import "UIViewController+RYPath.h"
 
 FOUNDATION_EXPORT double RYShowPathVersionNumber;
 FOUNDATION_EXPORT const unsigned char RYShowPathVersionString[];

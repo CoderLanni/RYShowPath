@@ -1,15 +1,15 @@
 //
-//  TestObj.h
+//  NSObject+RYGesturePath.h
 //  RYShowPath
 //
-//  Created by 小毅 on 2019/6/25.
+//  Created by 小毅 on 2019/6/26.
 //
+
 #import <Foundation/Foundation.h>
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface TestObj : NSObject
-- (void)test;
+@interface NSObject (RYGesturePath)
 
 @end
 

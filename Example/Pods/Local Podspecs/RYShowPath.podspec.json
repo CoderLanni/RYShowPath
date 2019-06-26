@@ -1,7 +1,7 @@
 {
   "name": "RYShowPath",
-  "version": "0.1.0",
-  "summary": "A short description of RYShowPath.",
+  "version": "0.1.1",
+  "summary": "使用cocoapod 的测试类 RYShowPath.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/CoderLanni/RYShowPath",
   "license": {
@@ -13,10 +13,18 @@
   },
   "source": {
     "git": "https://github.com/CoderLanni/RYShowPath.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "RYShowPath/Classes/**/*"
+  "source_files": "RYShowPath/Classes/**/*",
+  "public_header_files": [
+    "Pod/Classes/**/*.h",
+    "Pod/Classes/*.h",
+    "RYShowPath/Classes/**/*.h",
+    "RYShowPath/Classes/*.h",
+    "Pod/*.h",
+    "RYShowPath/*.h"
+  ]
 }

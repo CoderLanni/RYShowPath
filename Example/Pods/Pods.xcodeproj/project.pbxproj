@@ -7,18 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		06FCD236CC598F901762CD90024F88A6 /* UITableView+RYPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D7FAFE5037A1977C1114B29F40AC4C5 /* UITableView+RYPath.m */; };
 		1E583EFC7D3C4F88F9EE48F61596E252 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		1F1DE67E856DAA6D29309AEFD7AE43D5 /* RYPathMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = A92DDE103B116143CB6FCDB98C3604E2 /* RYPathMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25EB998B4199828E043ADD1700287D3F /* UIControl+RYPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 69053DD9057395BF14AC5B80D6281C29 /* UIControl+RYPath.m */; };
+		279C14FEFB8A52F55E4528E9BB8056E6 /* UIView+RYPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 583049B11C6413F615AC876B1E9F1C8D /* UIView+RYPath.m */; };
+		3A04FCEB71B4FFA51AB7B71ABE94EC33 /* UICollectionView+RYPath.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8E51678F0984C08D695D693128FE60 /* UICollectionView+RYPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C610896FD0B1E81F2FD22AF21C7370B /* UIViewController+RYPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0DB4D26A15D5248AD462EDD905F029A8 /* UIViewController+RYPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		508F9A05B47E75FF506967354161FA6D /* Pods-RYShowPath_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8761848E847F9FBCF46BBC06E637FD2E /* Pods-RYShowPath_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54AC50724D5E950BF2D041AC39CA93D6 /* TestMacro.h in Headers */ = {isa = PBXBuildFile; fileRef = 4E996D1227AC90A836E4AD0FED4C6D6F /* TestMacro.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		63BA2AE3A9DFCBA5C85E2F7212D71E44 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
-		6FD5831159135DDDB7C989FA3DB7A919 /* RYShowPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 94AA23AD5F7DFBA9F870BDB24808CA51 /* RYShowPath-dummy.m */; };
-		78B4A17BD2B8DDF82268483206B31C24 /* TestObj.h in Headers */ = {isa = PBXBuildFile; fileRef = 80C1A56CC0430FC3D11E08D03225DF0A /* TestObj.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		83E14BF0B9A364CD0023DAABBD335E45 /* RYShowPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73EAE4243D5C7614F3E01D4CDE954F44 /* RYShowPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		95869FE17010D6876764122AD4B3AC4F /* TestObj.m in Sources */ = {isa = PBXBuildFile; fileRef = 678643A07ECA9DFCD03854455F8845A6 /* TestObj.m */; };
+		AFA77DED9AE6631FDBFD1062EE578E85 /* UITableView+RYPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 01C0B783D38C945E4540AE221B8B4FA6 /* UITableView+RYPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B34A2EE0CBAD6C66F00FA0B9C26B3476 /* UIControl+RYPath.h in Headers */ = {isa = PBXBuildFile; fileRef = AE6462840D1BFB659C263F5DDFD4C64E /* UIControl+RYPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C99D67771AF7BB870F925C4C52C6137B /* Pods-RYShowPath_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 06F27FCA5C1F091A3821693D01195356 /* Pods-RYShowPath_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C9DAC2DF3B88892D21ED2A450073AB50 /* Pods-RYShowPath_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EC213EA0FA104E662AF1D6851E893227 /* Pods-RYShowPath_Tests-dummy.m */; };
+		CD0B770F70C6C6E5BD5F418AAE37CA49 /* RYShowPath-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DB1C64BA0AC365E64A851A0452AA991 /* RYShowPath-dummy.m */; };
+		DC83496EDFACBA6F821D2E2D2F10E8D3 /* UIView+RYPath.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E491A18507123F1BD3EB2EF72B8FD00 /* UIView+RYPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E4F1D4EC828E3A76605919947EA672C8 /* RYShowPath-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B48C425D45FC1396046C85118EF9970D /* RYShowPath-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBDEA82D6ED5DFBC072FC4EE557B47FC /* Pods-RYShowPath_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE839197F69B511771576E5EFEA4068 /* Pods-RYShowPath_Example-dummy.m */; };
+		EF3AAE9680D7CE7903C490EE4612E97E /* NSObject+RYGesturePath.h in Headers */ = {isa = PBXBuildFile; fileRef = 620A40BFD1A5ABB6CB32708FF249ECAD /* NSObject+RYGesturePath.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F5626339DAE70CBF1C7AC521D20D2BFC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F566156EBC92A44E45315189DA3AE8AB /* UIViewController+RYPath.m in Sources */ = {isa = PBXBuildFile; fileRef = B771D84775058653919831372488F352 /* UIViewController+RYPath.m */; };
+		FC2C50B5DAF32C49709CE5F3663A9A94 /* NSObject+RYGesturePath.m in Sources */ = {isa = PBXBuildFile; fileRef = 49B5F9BFD7E90ADFF4049EFD3F6E1261 /* NSObject+RYGesturePath.m */; };
+		FE86BC2865A2C188DD42D0D7F9E96CF3 /* UICollectionView+RYPath.m in Sources */ = {isa = PBXBuildFile; fileRef = CA2ED4C248E9720E631E643EC2B299B8 /* UICollectionView+RYPath.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,40 +49,50 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02A6490DF5F38F46D194E35085D2FF2A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		01C0B783D38C945E4540AE221B8B4FA6 /* UITableView+RYPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITableView+RYPath.h"; path = "RYShowPath/Classes/UITableView+RYPath.h"; sourceTree = "<group>"; };
 		06F27FCA5C1F091A3821693D01195356 /* Pods-RYShowPath_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYShowPath_Example-umbrella.h"; sourceTree = "<group>"; };
+		0DB4D26A15D5248AD462EDD905F029A8 /* UIViewController+RYPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+RYPath.h"; path = "RYShowPath/Classes/UIViewController+RYPath.h"; sourceTree = "<group>"; };
+		0E491A18507123F1BD3EB2EF72B8FD00 /* UIView+RYPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+RYPath.h"; path = "RYShowPath/Classes/UIView+RYPath.h"; sourceTree = "<group>"; };
+		109C1DEE804C00333285432A3F1B23E8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		21ED1D2FD0B29C98ABE0FE36D46CAA03 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2BA22FC94045677FE43F57CFEC26849B /* Pods_RYShowPath_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYShowPath_Tests.framework; path = "Pods-RYShowPath_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		396C845BFA8C8CC65969CC2926BCC354 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A9A4207656C5C503C6D004D68005DE3 /* Pods-RYShowPath_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYShowPath_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		3DB1C64BA0AC365E64A851A0452AA991 /* RYShowPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYShowPath-dummy.m"; sourceTree = "<group>"; };
 		3EA1E7D80CD5DFF28E998962B1F02327 /* Pods-RYShowPath_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYShowPath_Example-frameworks.sh"; sourceTree = "<group>"; };
+		49B5F9BFD7E90ADFF4049EFD3F6E1261 /* NSObject+RYGesturePath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+RYGesturePath.m"; path = "RYShowPath/Classes/NSObject+RYGesturePath.m"; sourceTree = "<group>"; };
 		4C965CA500A93A46D59EECB6A6646232 /* RYShowPath.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RYShowPath.framework; path = RYShowPath.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4E996D1227AC90A836E4AD0FED4C6D6F /* TestMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestMacro.h; path = RYShowPath/Classes/TestMacro.h; sourceTree = "<group>"; };
-		5020A79C66336DDEFCE878C8245FA44F /* RYShowPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYShowPath.modulemap; sourceTree = "<group>"; };
-		52F4B91C2A407DF5B92F5855F2343637 /* RYShowPath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYShowPath.xcconfig; sourceTree = "<group>"; };
-		5CBBD87AB4554C35E4C0BB5EF6EE7637 /* RYShowPath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYShowPath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4D7FAFE5037A1977C1114B29F40AC4C5 /* UITableView+RYPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITableView+RYPath.m"; path = "RYShowPath/Classes/UITableView+RYPath.m"; sourceTree = "<group>"; };
+		583049B11C6413F615AC876B1E9F1C8D /* UIView+RYPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+RYPath.m"; path = "RYShowPath/Classes/UIView+RYPath.m"; sourceTree = "<group>"; };
 		607FE6D02B940FE594BE40838CD770E8 /* Pods-RYShowPath_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYShowPath_Tests-resources.sh"; sourceTree = "<group>"; };
-		6265E36466F72AC83D5D4E78EC4DFEBE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		620A40BFD1A5ABB6CB32708FF249ECAD /* NSObject+RYGesturePath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+RYGesturePath.h"; path = "RYShowPath/Classes/NSObject+RYGesturePath.h"; sourceTree = "<group>"; };
 		65778317EE4B5614F9F6028A5747CF80 /* Pods-RYShowPath_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYShowPath_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		678643A07ECA9DFCD03854455F8845A6 /* TestObj.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestObj.m; path = RYShowPath/Classes/TestObj.m; sourceTree = "<group>"; };
 		686ECD050F3676BEBD56C679ED9F7B38 /* Pods-RYShowPath_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYShowPath_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		69053DD9057395BF14AC5B80D6281C29 /* UIControl+RYPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+RYPath.m"; path = "RYShowPath/Classes/UIControl+RYPath.m"; sourceTree = "<group>"; };
 		692FBBE1E04E5472E84BEC88AEBD3F52 /* Pods-RYShowPath_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RYShowPath_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		6FE839197F69B511771576E5EFEA4068 /* Pods-RYShowPath_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYShowPath_Example-dummy.m"; sourceTree = "<group>"; };
-		73EAE4243D5C7614F3E01D4CDE954F44 /* RYShowPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYShowPath-umbrella.h"; sourceTree = "<group>"; };
 		74854532FF67293F93372488660CE655 /* Pods-RYShowPath_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RYShowPath_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		80C1A56CC0430FC3D11E08D03225DF0A /* TestObj.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestObj.h; path = RYShowPath/Classes/TestObj.h; sourceTree = "<group>"; };
-		86BBD8C800120F38983F4C8A8F025A6F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8761848E847F9FBCF46BBC06E637FD2E /* Pods-RYShowPath_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RYShowPath_Tests-umbrella.h"; sourceTree = "<group>"; };
 		89CAB107A4A9D75C9320940A21FB8A8D /* Pods-RYShowPath_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYShowPath_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		91898E7BAE565B4285583490441D6E59 /* RYShowPath.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RYShowPath.xcconfig; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		94AA23AD5F7DFBA9F870BDB24808CA51 /* RYShowPath-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RYShowPath-dummy.m"; sourceTree = "<group>"; };
+		94FB339D6F11CA2552375E08D6749064 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A92DDE103B116143CB6FCDB98C3604E2 /* RYPathMacro.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RYPathMacro.h; path = RYShowPath/Classes/RYPathMacro.h; sourceTree = "<group>"; };
 		AC5EA17D88630608CB9D86B0DFFA3052 /* Pods-RYShowPath_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYShowPath_Tests.modulemap"; sourceTree = "<group>"; };
+		AE6462840D1BFB659C263F5DDFD4C64E /* UIControl+RYPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+RYPath.h"; path = "RYShowPath/Classes/UIControl+RYPath.h"; sourceTree = "<group>"; };
 		B0C6EF5A06AF68DEDCFBFDDE8D430786 /* Pods-RYShowPath_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYShowPath_Example-resources.sh"; sourceTree = "<group>"; };
 		B169CBD07BEEFB43BAD898708020481C /* Pods-RYShowPath_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYShowPath_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BA1F368650CD5E83229E3A299990C4D1 /* RYShowPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYShowPath-prefix.pch"; sourceTree = "<group>"; };
+		B4370B3D958627035FA97F280E581087 /* RYShowPath.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = RYShowPath.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B48C425D45FC1396046C85118EF9970D /* RYShowPath-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYShowPath-umbrella.h"; sourceTree = "<group>"; };
+		B771D84775058653919831372488F352 /* UIViewController+RYPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+RYPath.m"; path = "RYShowPath/Classes/UIViewController+RYPath.m"; sourceTree = "<group>"; };
+		BA99810E0EA349690919CE72A687D460 /* RYShowPath-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RYShowPath-prefix.pch"; sourceTree = "<group>"; };
 		C339898B70A5F2AACBA09256890A94A0 /* Pods_RYShowPath_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RYShowPath_Example.framework; path = "Pods-RYShowPath_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA2ED4C248E9720E631E643EC2B299B8 /* UICollectionView+RYPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UICollectionView+RYPath.m"; path = "RYShowPath/Classes/UICollectionView+RYPath.m"; sourceTree = "<group>"; };
 		CB8AAF18B8B985DCAD3A09F42127AD91 /* Pods-RYShowPath_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RYShowPath_Example.modulemap"; sourceTree = "<group>"; };
+		CE8E51678F0984C08D695D693128FE60 /* UICollectionView+RYPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UICollectionView+RYPath.h"; path = "RYShowPath/Classes/UICollectionView+RYPath.h"; sourceTree = "<group>"; };
 		DC9A736C671FC1F249FAFC83C59140ED /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0273B4B9FC847F4BC5BEFF89C5AB6C9 /* RYShowPath.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RYShowPath.modulemap; sourceTree = "<group>"; };
 		EC213EA0FA104E662AF1D6851E893227 /* Pods-RYShowPath_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RYShowPath_Tests-dummy.m"; sourceTree = "<group>"; };
 		F37516DB7EF2BF7F2DFF9365FD29F321 /* Pods-RYShowPath_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RYShowPath_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F5E2FB741424CF0EB347A40D0ADA36F6 /* Pods-RYShowPath_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RYShowPath_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -106,16 +126,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0AD3BE5CFA9E60120CCCDF87478E62DF /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				02A6490DF5F38F46D194E35085D2FF2A /* LICENSE */,
-				6265E36466F72AC83D5D4E78EC4DFEBE /* README.md */,
-				5CBBD87AB4554C35E4C0BB5EF6EE7637 /* RYShowPath.podspec */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		2DC606E9F222BB055CE4A950BA948B6A /* Pods-RYShowPath_Tests */ = {
 			isa = PBXGroup;
 			children = (
@@ -134,50 +144,39 @@
 			path = "Target Support Files/Pods-RYShowPath_Tests";
 			sourceTree = "<group>";
 		};
-		49EA377F842D9E13EA91D2F0AF417451 /* Support Files */ = {
+		57CF6E284E6A9A6219FB1513C4009572 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				86BBD8C800120F38983F4C8A8F025A6F /* Info.plist */,
-				5020A79C66336DDEFCE878C8245FA44F /* RYShowPath.modulemap */,
-				52F4B91C2A407DF5B92F5855F2343637 /* RYShowPath.xcconfig */,
-				94AA23AD5F7DFBA9F870BDB24808CA51 /* RYShowPath-dummy.m */,
-				BA1F368650CD5E83229E3A299990C4D1 /* RYShowPath-prefix.pch */,
-				73EAE4243D5C7614F3E01D4CDE954F44 /* RYShowPath-umbrella.h */,
+				21ED1D2FD0B29C98ABE0FE36D46CAA03 /* Info.plist */,
+				E0273B4B9FC847F4BC5BEFF89C5AB6C9 /* RYShowPath.modulemap */,
+				91898E7BAE565B4285583490441D6E59 /* RYShowPath.xcconfig */,
+				3DB1C64BA0AC365E64A851A0452AA991 /* RYShowPath-dummy.m */,
+				BA99810E0EA349690919CE72A687D460 /* RYShowPath-prefix.pch */,
+				B48C425D45FC1396046C85118EF9970D /* RYShowPath-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/RYShowPath";
 			sourceTree = "<group>";
 		};
-		6A7C2F66B16885AA083671A1C76091D5 /* Development Pods */ = {
+		68386DA1BD2CA5F3B0CC5F048EAD25B8 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				83FE41E3C5F9B71EAA9460B0FF300126 /* RYShowPath */,
+				94FB339D6F11CA2552375E08D6749064 /* LICENSE */,
+				109C1DEE804C00333285432A3F1B23E8 /* README.md */,
+				B4370B3D958627035FA97F280E581087 /* RYShowPath.podspec */,
 			);
-			name = "Development Pods";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				6A7C2F66B16885AA083671A1C76091D5 /* Development Pods */,
+				DC3F34B243393469BF4AECFAB7203D36 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				B5B140129C171542FE1BEBD32E0480B1 /* Products */,
 				FC14C28B7F610510C1491F8A15402472 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		83FE41E3C5F9B71EAA9460B0FF300126 /* RYShowPath */ = {
-			isa = PBXGroup;
-			children = (
-				4E996D1227AC90A836E4AD0FED4C6D6F /* TestMacro.h */,
-				80C1A56CC0430FC3D11E08D03225DF0A /* TestObj.h */,
-				678643A07ECA9DFCD03854455F8845A6 /* TestObj.m */,
-				0AD3BE5CFA9E60120CCCDF87478E62DF /* Pod */,
-				49EA377F842D9E13EA91D2F0AF417451 /* Support Files */,
-			);
-			name = RYShowPath;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		B5B140129C171542FE1BEBD32E0480B1 /* Products */ = {
@@ -224,6 +223,37 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		DC3F34B243393469BF4AECFAB7203D36 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E29AA3631393A6E2C71E8A19748FAA04 /* RYShowPath */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E29AA3631393A6E2C71E8A19748FAA04 /* RYShowPath */ = {
+			isa = PBXGroup;
+			children = (
+				620A40BFD1A5ABB6CB32708FF249ECAD /* NSObject+RYGesturePath.h */,
+				49B5F9BFD7E90ADFF4049EFD3F6E1261 /* NSObject+RYGesturePath.m */,
+				A92DDE103B116143CB6FCDB98C3604E2 /* RYPathMacro.h */,
+				CE8E51678F0984C08D695D693128FE60 /* UICollectionView+RYPath.h */,
+				CA2ED4C248E9720E631E643EC2B299B8 /* UICollectionView+RYPath.m */,
+				AE6462840D1BFB659C263F5DDFD4C64E /* UIControl+RYPath.h */,
+				69053DD9057395BF14AC5B80D6281C29 /* UIControl+RYPath.m */,
+				01C0B783D38C945E4540AE221B8B4FA6 /* UITableView+RYPath.h */,
+				4D7FAFE5037A1977C1114B29F40AC4C5 /* UITableView+RYPath.m */,
+				0E491A18507123F1BD3EB2EF72B8FD00 /* UIView+RYPath.h */,
+				583049B11C6413F615AC876B1E9F1C8D /* UIView+RYPath.m */,
+				0DB4D26A15D5248AD462EDD905F029A8 /* UIViewController+RYPath.h */,
+				B771D84775058653919831372488F352 /* UIViewController+RYPath.m */,
+				68386DA1BD2CA5F3B0CC5F048EAD25B8 /* Pod */,
+				57CF6E284E6A9A6219FB1513C4009572 /* Support Files */,
+			);
+			name = RYShowPath;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 		FC14C28B7F610510C1491F8A15402472 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -236,13 +266,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		B007114DC0069AC20EA72F4860813992 /* Headers */ = {
+		5082DA3C98571C85A17FC0BC9E5B2A30 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				83E14BF0B9A364CD0023DAABBD335E45 /* RYShowPath-umbrella.h in Headers */,
-				54AC50724D5E950BF2D041AC39CA93D6 /* TestMacro.h in Headers */,
-				78B4A17BD2B8DDF82268483206B31C24 /* TestObj.h in Headers */,
+				EF3AAE9680D7CE7903C490EE4612E97E /* NSObject+RYGesturePath.h in Headers */,
+				1F1DE67E856DAA6D29309AEFD7AE43D5 /* RYPathMacro.h in Headers */,
+				E4F1D4EC828E3A76605919947EA672C8 /* RYShowPath-umbrella.h in Headers */,
+				3A04FCEB71B4FFA51AB7B71ABE94EC33 /* UICollectionView+RYPath.h in Headers */,
+				B34A2EE0CBAD6C66F00FA0B9C26B3476 /* UIControl+RYPath.h in Headers */,
+				AFA77DED9AE6631FDBFD1062EE578E85 /* UITableView+RYPath.h in Headers */,
+				DC83496EDFACBA6F821D2E2D2F10E8D3 /* UIView+RYPath.h in Headers */,
+				3C610896FD0B1E81F2FD22AF21C7370B /* UIViewController+RYPath.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +304,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C9DD145092AE62699207CD9C5C19EBC0 /* Build configuration list for PBXNativeTarget "RYShowPath" */;
 			buildPhases = (
-				909C60FE8A98633BA4FB753B3FF3D0E2 /* Sources */,
+				DC1D7A6F06B17876F3CC09A396F03437 /* Sources */,
 				19FB415CC93F38A5BC221EB8314F8F62 /* Frameworks */,
-				B007114DC0069AC20EA72F4860813992 /* Headers */,
+				5082DA3C98571C85A17FC0BC9E5B2A30 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -355,20 +390,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		909C60FE8A98633BA4FB753B3FF3D0E2 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6FD5831159135DDDB7C989FA3DB7A919 /* RYShowPath-dummy.m in Sources */,
-				95869FE17010D6876764122AD4B3AC4F /* TestObj.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		D17AD2C555132182AE79335CB369878F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				EBDEA82D6ED5DFBC072FC4EE557B47FC /* Pods-RYShowPath_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC1D7A6F06B17876F3CC09A396F03437 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC2C50B5DAF32C49709CE5F3663A9A94 /* NSObject+RYGesturePath.m in Sources */,
+				CD0B770F70C6C6E5BD5F418AAE37CA49 /* RYShowPath-dummy.m in Sources */,
+				FE86BC2865A2C188DD42D0D7F9E96CF3 /* UICollectionView+RYPath.m in Sources */,
+				25EB998B4199828E043ADD1700287D3F /* UIControl+RYPath.m in Sources */,
+				06FCD236CC598F901762CD90024F88A6 /* UITableView+RYPath.m in Sources */,
+				279C14FEFB8A52F55E4528E9BB8056E6 /* UIView+RYPath.m in Sources */,
+				F566156EBC92A44E45315189DA3AE8AB /* UIViewController+RYPath.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,7 +432,7 @@
 /* Begin XCBuildConfiguration section */
 		040F05BD79048C53700066F5F0FB3912 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52F4B91C2A407DF5B92F5855F2343637 /* RYShowPath.xcconfig */;
+			baseConfigurationReference = 91898E7BAE565B4285583490441D6E59 /* RYShowPath.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -422,7 +462,7 @@
 		};
 		0D9FFC3722C5EE47097C8014AF3F6089 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 52F4B91C2A407DF5B92F5855F2343637 /* RYShowPath.xcconfig */;
+			baseConfigurationReference = 91898E7BAE565B4285583490441D6E59 /* RYShowPath.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

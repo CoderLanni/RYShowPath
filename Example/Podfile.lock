@@ -1,5 +1,5 @@
 PODS:
-  - RYShowPath (0.1.0)
+  - RYShowPath (0.1.1)
 
 DEPENDENCIES:
   - RYShowPath (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  RYShowPath: 00bc91f0b85f68a0d354827ac7047649bd1b3464
+  RYShowPath: f3fb1f1d7658ee4b8f22028bcab5abdd1dac9f76
 
 PODFILE CHECKSUM: e1c4be6296655e9f0bca3e6dcecd4ac49dd45124
 
